@@ -4,8 +4,9 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  // base: '/router/'
+  base: '/router/',
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/my-project/'
+    ? '/router/'
     : '/'
+
 })
