@@ -4,7 +4,7 @@ import Page2 from "./components/page2.vue";
 
 const routes = [
     {path:'/',component: Page1,name:'p1'},
-    {path:'/',component: Page2,name:'p2'},
+    {path:'/one',component: Page2,name:'p2'},
 ]
 
 export const router = createRouter({
